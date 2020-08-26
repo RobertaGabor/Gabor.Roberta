@@ -69,7 +69,7 @@ namespace Ejercicio01
                 varMinimo = var5;
             }
 
-            promedio = (var1 + var2 + var3 + var4 + var5) / 5;
+            promedio = (Single)(var1 + var2 + var3 + var4 + var5) / 5;
             Console.WriteLine("El maximo es {0,-7:#,###.00}, el minimo es {1,-7:#,###.00}, y el promedio es {2,-7:#,###.00}", varMaximo,varMinimo,promedio);
             Console.ReadKey(true);
         }
