@@ -1,0 +1,7 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\bin\Debug\Ejercicio01.exe.config
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\bin\Debug\Ejercicio01.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\bin\Debug\Ejercicio01.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\obj\Debug\Ejercicio01.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\obj\Debug\Ejercicio01.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\obj\Debug\Ejercicio01.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio01\obj\Debug\Ejercicio01.pdb
