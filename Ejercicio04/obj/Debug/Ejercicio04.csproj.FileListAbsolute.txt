@@ -4,3 +4,4 @@ C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio04\bin\Debug\Ejerci
 C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio04\obj\Debug\Ejercicio04.csproj.CoreCompileInputs.cache
 C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio04\obj\Debug\Ejercicio04.exe
 C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio04\obj\Debug\Ejercicio04.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio04\obj\Debug\Ejercicio04.csprojAssemblyReference.cache
