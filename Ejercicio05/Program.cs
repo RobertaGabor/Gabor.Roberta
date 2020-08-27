@@ -16,7 +16,7 @@ Nota: Utilizar estructuras repetitivas y selectivas.
 */
 namespace Ejercicio05
 {
-    class Program
+    class Ejercicio_05
     {
         static void Main(string[] args)
         {
