@@ -17,7 +17,40 @@ namespace Ejercicio06
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio Nro 06";
+            Int32 minimo;
+            Int32 maximo;
+            Console.Write("Años bisiestos ");
+            Console.Write("desde: ");
+            minimo = int.Parse(Console.ReadLine());
+            Console.Write("hasta: ");
+            maximo = int.Parse(Console.ReadLine());
 
+            if(minimo>=1100&&maximo<=2020&&minimo<maximo)
+            {
+                for(;minimo<=maximo;minimo++)
+                {
+                    if(minimo%4==0)
+                    {
+                        if(minimo%100==0)
+                        {
+                            if(minimo%400==0)
+                            {
+                                Console.WriteLine("{0}", minimo);
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("{0}", minimo);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Años invalidos debe ser desde 1100 hasta 2020");
+            }
+
+            Console.ReadKey(true);
         }
     }
 }
