@@ -20,7 +20,7 @@ namespace Ejercicio08
         {
             Console.Title = "Ejercicio Nro 08";
 
-
+            
 
             Console.ReadKey(true);
         }
