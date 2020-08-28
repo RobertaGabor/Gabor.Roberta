@@ -1,0 +1,6 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio07\bin\Debug\Ejercicio07.exe.config
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio07\bin\Debug\Ejercicio07.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio07\bin\Debug\Ejercicio07.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio07\obj\Debug\Ejercicio07.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio07\obj\Debug\Ejercicio07.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio07\obj\Debug\Ejercicio07.pdb
