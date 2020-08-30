@@ -17,10 +17,23 @@ namespace Ejercicio12
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio Nro 12";
+            Int32 numero;
+            Int32 suma=0;
+            Char seguir;
 
+            do
+            {
+                Console.WriteLine("Escriba un numero entero:");
+                numero = int.Parse(Console.ReadLine());
 
+                suma += numero;
 
+                Console.WriteLine("¿Continuar? (S/N)");
+                seguir = (Convert.ToChar(Console.ReadLine()));
 
+            } while (ValidarRespuesta.ValidaS_N(seguir) == true);
+
+            Console.WriteLine("La suma total es {0}", suma);
             Console.ReadKey(true);
         }
     }
