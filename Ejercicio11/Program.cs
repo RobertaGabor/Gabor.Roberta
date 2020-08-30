@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,10 +21,49 @@ namespace Ejercicio11
         static void Main(string[] args)
         {
             Console.Title = "Ejercicio Nro 11";
+            Int32 numero1;
+            Int32 auxiliar;
+            Int32 contador = 0;
+            Int32 suma = 0;
+            Single promedio;
+            Int32 maximo=0;
+            Int32 minimo=0;
+
+            do
+            {
+                Console.WriteLine("Ingrese un numero entre -100 y 100:");
+                auxiliar = int.Parse(Console.ReadLine());
+
+                if(Validacion.Validar(auxiliar,-100,100)==true)
+                {
+                    numero1 = auxiliar;
+                    suma += numero1;
+
+                    if(contador==0)
+                    {
+                        maximo = numero1;
+                        minimo = numero1;
+                    }
+                    else if(numero1>maximo)
+                    {
+                        maximo = numero1;
+                    }
+                    else if(numero1<minimo)
+                    {
+                        minimo = numero1;
+                    }
+
+                    contador++;
+                }
+
+
+            } while (contador < 10);
 
 
 
+            promedio = (float)suma / 10;
 
+            Console.WriteLine("El numero maximo es {0:##,###.00}, el minimo es {1:##,###.00}, y el promedio es {2:##,###.00}", maximo, minimo, promedio);
             Console.ReadKey(true);
         }
     }
