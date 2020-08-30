@@ -14,7 +14,7 @@ bruto, el total de descuentos y el valor neto a cobrar de todos los empleados in
 Nota: Utilizar estructuras repetitivas y selectivas.*/
 namespace Ejercicio08
 {
-    class Ejercicio_07
+    class Ejercicio_08
     {
         static void Main(string[] args)
         {

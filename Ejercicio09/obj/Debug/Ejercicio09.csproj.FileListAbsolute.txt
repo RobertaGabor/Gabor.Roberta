@@ -1,0 +1,7 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\bin\Debug\Ejercicio09.exe.config
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\bin\Debug\Ejercicio09.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\bin\Debug\Ejercicio09.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\obj\Debug\Ejercicio09.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\obj\Debug\Ejercicio09.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\obj\Debug\Ejercicio09.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio09\obj\Debug\Ejercicio09.pdb
