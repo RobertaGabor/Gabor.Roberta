@@ -15,9 +15,13 @@ namespace Ejercicio13
         {
             Console.Title = "Ejercicio Nro 13";
             string numeroEnBinario;
+            double numeroEnDecimal;
 
-            numeroEnBinario = Conversor.DecimalBinario(10.23);
+            numeroEnBinario = Conversor.DecimalBinario(63.87);/*decimal de dos digitos*/
             Console.WriteLine("El numero en binario es: {0}", numeroEnBinario);
+
+            numeroEnDecimal = Conversor.BinarioDecimal("111111.1101111");
+            Console.WriteLine("El numero en decimal es: {0}", numeroEnDecimal);
 
             Console.ReadKey(true);
         }

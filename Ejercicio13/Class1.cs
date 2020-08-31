@@ -88,7 +88,7 @@ namespace Ejercicio13
                 Int32 cont = 0;
                 while (parteDecimal != 0 && cont < 7)
                 {
-                    if (parteDecimal * 2 < 100)
+                    if (parteDecimal * 2 < 100)/*si el decimal es mayor a 100 acortar y redondear porque sino no funciona*/
                     {
                         parteDecimal = parteDecimal * 2;
                         decimalBinario += "0";
@@ -114,9 +114,53 @@ namespace Ejercicio13
 
         public static double BinarioDecimal(string y)/*Convierte un número binario a entero*/
         {
+            Int32 lenght1 = y.Length;
+            Double parteEntera1 = 0;
+            Double inicioEntero=-1;
+            Double potenciado;
+            Double parteDecimal1 = 0;
+            
+            Double numeroDecimal;
 
+            for (int n = 0; y[n] !='.'; n++)
+            {
+                    inicioEntero++;/*si son 4 va a ser lenght 3*/
+            }
+            
+            for (int s = 0; s < lenght1; s++)
+            {   
+                if (y[s] == '0')
+                {
+                    parteEntera1 += 0;
+                    parteDecimal1 += 0;
+                }
+                else if (y[s] == '1')
+                {
+                    potenciado = Math.Pow(2, inicioEntero);
 
-            return 23;
+                    if(inicioEntero>=0)
+                    {
+                        parteEntera1 += potenciado;
+                    }
+                    else
+                    {
+                        parteDecimal1 += potenciado;
+                    }
+                    
+
+                }
+
+                if(y[s] != '.')
+                {
+                    inicioEntero--;
+                    
+                }
+
+            }
+  
+
+            numeroDecimal = parteEntera1 + parteDecimal1;
+            return numeroDecimal;
         }
     }
 }
