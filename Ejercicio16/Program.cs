@@ -21,9 +21,32 @@ namespace Ejercicio16
         {
             Console.Title = "Ejercicio Nro 16";
 
+            Alumno alumno1 = new Alumno();
+            Alumno alumno2 = new Alumno();
+            Alumno alumno3 = new Alumno();
 
 
-            Console.ReadKey(true);
+            alumno1.ConstructorPublico("juan", "perez", 1000);
+            alumno2.ConstructorPublico("sofia", "lopez", 1001);
+            alumno3.ConstructorPublico("paula", "pitufa", 1002);
+
+            alumno1.Estudiar(2, 1);
+            alumno2.Estudiar(4, 4);
+            alumno3.Estudiar(8, 9);
+
+
+            alumno1.CalcularFinal();
+            alumno2.CalcularFinal();
+            alumno3.CalcularFinal();
+
+
+            alumno1.Mostrar();
+            alumno2.Mostrar();
+            alumno3.Mostrar();
+
+                
+
+                Console.ReadKey(true);
         }
     }
 }
