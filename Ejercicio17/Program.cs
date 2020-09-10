@@ -36,13 +36,11 @@ namespace Ejercicio17
         {
             Console.Title = "Ejercicio Nro 17";
 
-            Boligrafo pen1 = new Boligrafo();
-            Boligrafo pen2 = new Boligrafo();
+            Boligrafo pen1 = new Boligrafo(100, ConsoleColor.Blue);
+            Boligrafo pen2 = new Boligrafo(50, ConsoleColor.Red);
+
             string trazoPen1;
             string trazoPen2;
-
-            pen1.AsignarBoligrafo(100, ConsoleColor.Blue);
-            pen2.AsignarBoligrafo(50, ConsoleColor.Red);
 
             /*muestro color y nivel de tinta*/
             Console.WriteLine(pen1.GetColor());

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace PenWriting
 {
     class Boligrafo
@@ -13,7 +14,7 @@ namespace PenWriting
         private short tinta;
 
         /*constructor*/
-        public void AsignarBoligrafo(short cantidadTinta, ConsoleColor colorBoligrafo)
+        public Boligrafo(short cantidadTinta, ConsoleColor colorBoligrafo)
         {
             this.tinta = cantidadTinta;
             this.color = colorBoligrafo;
