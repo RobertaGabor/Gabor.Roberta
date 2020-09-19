@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio22", "Ejercicio22\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioSobrecargasOpSlack", "EjercicioSobrecargasOpSlack\EjercicioSobrecargasOpSlack.csproj", "{BF179175-5B97-4D5A-8372-F10B7D7CA397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moneda", "Moneda\Moneda.csproj", "{6AE9DC9D-19DA-4D1F-88B2-03C90A78715D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio23", "Ejercicio23\Ejercicio23.csproj", "{19B1FE30-54FA-44D7-A112-A7C174EDF004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE9DC9D-19DA-4D1F-88B2-03C90A78715D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE9DC9D-19DA-4D1F-88B2-03C90A78715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE9DC9D-19DA-4D1F-88B2-03C90A78715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE9DC9D-19DA-4D1F-88B2-03C90A78715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B1FE30-54FA-44D7-A112-A7C174EDF004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B1FE30-54FA-44D7-A112-A7C174EDF004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B1FE30-54FA-44D7-A112-A7C174EDF004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B1FE30-54FA-44D7-A112-A7C174EDF004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,5 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Moneda\bin\Debug\Moneda.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Moneda\bin\Debug\Moneda.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Moneda\obj\Debug\Moneda.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Moneda\obj\Debug\Moneda.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Moneda\obj\Debug\Moneda.pdb
