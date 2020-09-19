@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio20", "Ejercicio20\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio22", "Ejercicio22\Ejercicio22.csproj", "{04D8C29C-A55E-4DC4-89CE-809411850336}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioSobrecargasOpSlack", "EjercicioSobrecargasOpSlack\EjercicioSobrecargasOpSlack.csproj", "{BF179175-5B97-4D5A-8372-F10B7D7CA397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{04D8C29C-A55E-4DC4-89CE-809411850336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D8C29C-A55E-4DC4-89CE-809411850336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D8C29C-A55E-4DC4-89CE-809411850336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF179175-5B97-4D5A-8372-F10B7D7CA397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
