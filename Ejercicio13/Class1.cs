@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio13
 {
-    class Conversor
+    public class Conversor
     {
         public static string DecimalBinario(double x)/*Convierte un número de entero a binario*/
         {
@@ -119,14 +119,30 @@ namespace Ejercicio13
             Double inicioEntero=-1;
             Double potenciado;
             Double parteDecimal1 = 0;
+            bool coma = false;
             
             Double numeroDecimal;
 
-            for (int n = 0; y[n] !='.'; n++)
+            for (int n = 0; n<lenght1; n++)
             {
-                    inicioEntero++;/*si son 4 va a ser lenght 3*/
+                if (y[n]=='.')
+                {
+                    coma = true;
+                    break;
+                }
             }
-            
+            if(coma)
+            {
+                for (int n = 0; y[n] != '.'; n++)
+                {
+                    inicioEntero++;
+                }
+            }
+            else
+            {
+                inicioEntero = lenght1-1;/*porque empezamos en 0 y el lenght va desde 1*/
+            }
+
             for (int s = 0; s < lenght1; s++)
             {   
                 if (y[s] == '0')
