@@ -61,5 +61,68 @@ namespace Billetes
             return novo;
         }
 
+
+        /*sobrecargas*/
+        public static bool operator ==(Dolar d,Euro e)
+        {
+            if(d.GetCantidad()*Euro.GetCotizacion()==e.GetCantidad())
+            {
+                return true;
+            }
+
+            return false;
+        }
+        public static bool operator !=(Dolar d, Euro e)
+        {
+            return !(d == e);
+        }
+        public static bool operator ==(Dolar d, Peso p)
+        {
+            if (p.GetCantidad() / Peso.GetCotizacion() == d.GetCantidad())
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Dolar d, Peso p)
+        {
+            return !(d == p);
+        }
+        public static bool operator ==(Dolar d, Dolar dd)
+        {
+            if (dd.GetCantidad() == d.GetCantidad())
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Dolar d, Dolar dd)
+        {
+            return !(d == dd);
+        }
+        public static Dolar operator +(Dolar d, Euro e)
+        {
+            Dolar aux = (Dolar)e;
+            Dolar suma = new Dolar(d.GetCantidad() + aux.GetCantidad());
+            return suma;
+        }
+        public static Dolar operator +(Dolar d, Peso p)
+        {
+            Dolar aux = (Dolar)p;
+            Dolar suma = new Dolar(d.GetCantidad() + aux.GetCantidad());
+            return suma;
+        }
+        public static Dolar operator -(Dolar d, Euro e)
+        {
+            Dolar aux = (Dolar)e;
+            Dolar suma = new Dolar(d.GetCantidad() - aux.GetCantidad());
+            return suma;
+        }
+        public static Dolar operator -(Dolar d, Peso p)
+        {
+            Dolar aux = (Dolar)p;
+            Dolar suma = new Dolar(d.GetCantidad() - aux.GetCantidad());
+            return suma;
+        }
     }
 }

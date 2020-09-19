@@ -40,14 +40,14 @@ namespace Billetes
         {
             double coti = Peso.GetCotizacion();
             double cant = x.GetCantidad();
-            double cotizacionFinal = cant*coti;
+            double cotizacionFinal = cant/coti;
             Dolar retorno = new Dolar(cotizacionFinal);
             return retorno;
         }
         public static explicit operator Euro(Peso x)
         {
             Dolar cotiDol = (Dolar)x;
-            Euro retorno = (Euro)x;
+            Euro retorno = (Euro)cotiDol;
             return retorno;
         }
 
@@ -55,6 +55,69 @@ namespace Billetes
         {
             Peso novo = new Peso(d);
             return novo;
+        }
+        /*sobrecargas*/
+        public static bool operator ==(Peso p, Dolar d)
+        {
+            if (d == p)
+            {
+                return true;
+            }
+
+            return false;
+        }
+        public static bool operator !=(Peso p, Dolar d)
+        {
+            return !(p == d);
+        }
+        public static bool operator ==(Peso p, Euro e)
+        {
+
+            if (e == p)
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Peso p, Euro e)
+        {
+            return !(p == e);
+        }
+        public static bool operator ==(Peso p, Peso pp)
+        {
+            if (p.GetCantidad() == pp.GetCantidad())
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Peso p, Peso pp)
+        {
+            return !(p == pp);
+        }
+        public static Peso operator +(Peso p, Dolar d)
+        {
+            Peso aux = (Peso)d;
+            Peso suma = new Peso(p.GetCantidad() + aux.GetCantidad());
+            return suma;
+        }
+        public static Peso operator +(Peso p, Euro e)
+        {
+            Peso aux = (Peso)e;
+            Peso suma = new Peso(p.GetCantidad() + aux.GetCantidad());
+            return suma;
+        }
+        public static Peso operator -(Peso p, Dolar d)
+        {
+            Peso aux = (Peso)d;
+            Peso suma = new Peso(p.GetCantidad() - aux.GetCantidad());
+            return suma;
+        }
+        public static Peso operator -(Peso p, Euro e)
+        {
+            Peso aux = (Peso)e;
+            Peso suma = new Peso(p.GetCantidad() - aux.GetCantidad());
+            return suma;
         }
     }
 }

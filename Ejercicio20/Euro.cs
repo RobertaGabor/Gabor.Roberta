@@ -48,7 +48,7 @@ namespace Billetes
         public static explicit operator Peso(Euro x)
         {
             Dolar cotiDol = (Dolar)x;
-            Peso retorno = (Peso)x;
+            Peso retorno = (Peso)cotiDol;
             return retorno;
         }
 
@@ -58,6 +58,68 @@ namespace Billetes
             return novo;
         }
 
+        /*sobrecargas*/
+        public static bool operator ==(Euro e, Dolar d)
+        {
+            if (d==e)
+            {
+                return true;
+            }
 
+            return false;
+        }
+        public static bool operator !=(Euro e, Dolar d)
+        {
+            return !(e == d);
+        }
+        public static bool operator ==(Euro e, Peso p)
+        {
+
+            if (((Euro)p).GetCantidad() == e.GetCantidad())
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Euro e, Peso p)
+        {
+            return !(e == p);
+        }
+        public static bool operator ==(Euro e, Euro ee)
+        {
+            if (e.GetCantidad() == ee.GetCantidad())
+            {
+                return true;
+            }
+            return false;
+        }
+        public static bool operator !=(Euro e, Euro ee)
+        {
+            return !(e == ee);
+        }
+        public static Euro operator +(Euro e, Dolar d)
+        {
+            Euro aux = (Euro)d;
+            Euro suma = new Euro(e.GetCantidad() + aux.GetCantidad());
+            return suma;
+        }
+        public static Euro operator +(Euro e, Peso p)
+        {
+            Euro aux = (Euro)p;
+            Euro suma = new Euro(e.GetCantidad() + aux.GetCantidad());
+            return suma;
+        }
+        public static Euro operator -(Euro e, Dolar d)
+        {
+            Euro aux = (Euro)d;
+            Euro suma = new Euro(e.GetCantidad() - aux.GetCantidad());
+            return suma;
+        }
+        public static Euro operator -(Euro e, Peso p)
+        {
+            Euro aux = (Euro)p;
+            Euro suma = new Euro(e.GetCantidad() - aux.GetCantidad());
+            return suma;
+        }
     }
 }
