@@ -105,7 +105,7 @@
             this.txtBoxEuro.Location = new System.Drawing.Point(90, 76);
             this.txtBoxEuro.Name = "txtBoxEuro";
             this.txtBoxEuro.Size = new System.Drawing.Size(112, 24);
-            this.txtBoxEuro.TabIndex = 4;
+            this.txtBoxEuro.TabIndex = 5;
             // 
             // txtBoxDolar
             // 
@@ -113,7 +113,7 @@
             this.txtBoxDolar.Location = new System.Drawing.Point(90, 128);
             this.txtBoxDolar.Name = "txtBoxDolar";
             this.txtBoxDolar.Size = new System.Drawing.Size(112, 24);
-            this.txtBoxDolar.TabIndex = 5;
+            this.txtBoxDolar.TabIndex = 6;
             // 
             // txtBoxPeso
             // 
@@ -121,7 +121,7 @@
             this.txtBoxPeso.Location = new System.Drawing.Point(90, 176);
             this.txtBoxPeso.Name = "txtBoxPeso";
             this.txtBoxPeso.Size = new System.Drawing.Size(112, 24);
-            this.txtBoxPeso.TabIndex = 6;
+            this.txtBoxPeso.TabIndex = 7;
             // 
             // btnCotizacion
             // 
@@ -130,7 +130,7 @@
             this.btnCotizacion.Location = new System.Drawing.Point(133, 12);
             this.btnCotizacion.Name = "btnCotizacion";
             this.btnCotizacion.Size = new System.Drawing.Size(129, 33);
-            this.btnCotizacion.TabIndex = 7;
+            this.btnCotizacion.TabIndex = 4;
             this.btnCotizacion.UseVisualStyleBackColor = true;
             this.btnCotizacion.Click += new System.EventHandler(this.btnCotizacion_Click);
             // 
@@ -149,6 +149,7 @@
             this.btnEuroConvert.TabIndex = 8;
             this.btnEuroConvert.Text = "->";
             this.btnEuroConvert.UseVisualStyleBackColor = true;
+            this.btnEuroConvert.Click += new System.EventHandler(this.btnConvertEuro_Click);
             // 
             // btnConvertDolar
             // 
@@ -158,6 +159,7 @@
             this.btnConvertDolar.TabIndex = 9;
             this.btnConvertDolar.Text = "->";
             this.btnConvertDolar.UseVisualStyleBackColor = true;
+            this.btnConvertDolar.Click += new System.EventHandler(this.btnConvertDolar_Click);
             // 
             // btnConvertPeso
             // 
@@ -167,6 +169,7 @@
             this.btnConvertPeso.TabIndex = 10;
             this.btnConvertPeso.Text = "->";
             this.btnConvertPeso.UseVisualStyleBackColor = true;
+            this.btnConvertPeso.Click += new System.EventHandler(this.btnConvertPeso_Click);
             // 
             // txtBoxCotiEuro
             // 
@@ -174,7 +177,7 @@
             this.txtBoxCotiEuro.Location = new System.Drawing.Point(280, 15);
             this.txtBoxCotiEuro.Name = "txtBoxCotiEuro";
             this.txtBoxCotiEuro.Size = new System.Drawing.Size(102, 24);
-            this.txtBoxCotiEuro.TabIndex = 11;
+            this.txtBoxCotiEuro.TabIndex = 1;
             this.txtBoxCotiEuro.Leave += new System.EventHandler(this.txtCotizacionEuro_Leave);
             // 
             // txtBoxCotiDolar
@@ -183,7 +186,7 @@
             this.txtBoxCotiDolar.Location = new System.Drawing.Point(388, 15);
             this.txtBoxCotiDolar.Name = "txtBoxCotiDolar";
             this.txtBoxCotiDolar.Size = new System.Drawing.Size(102, 24);
-            this.txtBoxCotiDolar.TabIndex = 12;
+            this.txtBoxCotiDolar.TabIndex = 2;
             this.txtBoxCotiDolar.Leave += new System.EventHandler(this.txtCotizacionDolar_Leave);
             // 
             // txtBoxCotiPeso
@@ -192,7 +195,7 @@
             this.txtBoxCotiPeso.Location = new System.Drawing.Point(494, 15);
             this.txtBoxCotiPeso.Name = "txtBoxCotiPeso";
             this.txtBoxCotiPeso.Size = new System.Drawing.Size(97, 24);
-            this.txtBoxCotiPeso.TabIndex = 13;
+            this.txtBoxCotiPeso.TabIndex = 3;
             this.txtBoxCotiPeso.Leave += new System.EventHandler(this.txtCotizacionPeso_Leave);
             // 
             // labelEuro

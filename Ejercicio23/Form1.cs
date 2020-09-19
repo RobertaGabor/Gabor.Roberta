@@ -85,5 +85,108 @@ namespace Ejercicio23
                 Peso.SetCotizacionPeso(cotizacionDouble);
             }
         }
+
+        private void btnConvertEuro_Click(object sender, EventArgs e)
+        {
+            if(cotizacionesVal()==false)
+            {
+                MessageBox.Show("Ingrese cotizaciones en cada moneda", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string valor = txtBoxEuro.Text;
+                double valorDouble;
+                bool pudo = double.TryParse(valor, out valorDouble);
+                if (!pudo)
+                {
+                    MessageBox.Show("Ingrese un valor valido", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    Euro txt = new Euro(valorDouble);
+                    Dolar txtDolar = new Dolar();
+                    Peso txtPeso = new Peso();
+                    txtDolar = (Dolar)txt;
+                    txtPeso = (Peso)txt;
+                    txtBoxEuroEuro.Text = valor;
+                    txtBoxEuroDolar.Text = txtDolar.GetCantidad().ToString();
+                    txtBoxEuroPeso.Text = txtPeso.GetCantidad().ToString();
+
+                }
+            }
+        }
+
+        private void btnConvertDolar_Click(object sender, EventArgs e)
+        {
+            if (cotizacionesVal() == false)
+            {
+                MessageBox.Show("Ingrese cotizaciones en cada moneda", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string valor = txtBoxDolar.Text;
+                double valorDouble;
+                bool pudo = double.TryParse(valor, out valorDouble);
+                if (!pudo)
+                {
+                    MessageBox.Show("Ingrese un valor valido", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    Dolar txt = new Dolar(valorDouble);
+                    Euro txtEuro = new Euro();
+                    Peso txtPeso = new Peso();
+                    txtEuro = (Euro)txt;
+                    txtPeso = (Peso)txt;
+                    txtBoxDolarDolar.Text = valor;
+                    txtBoxDolarEuro.Text = txtEuro.GetCantidad().ToString();
+                    txtBoxDolarPeso.Text = txtPeso.GetCantidad().ToString();
+
+                }
+            }
+
+        }
+
+        private bool cotizacionesVal()
+        {
+            if (Euro.GetCotizacion() > 0 && Peso.GetCotizacion() > 0 && Dolar.GetCotizacion() > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;  
+            }
+        }
+
+        private void btnConvertPeso_Click(object sender, EventArgs e)
+        {
+            if (cotizacionesVal() == false)
+            {
+                MessageBox.Show("Ingrese cotizaciones en cada moneda", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string valor = txtBoxPeso.Text;
+                double valorDouble;
+                bool pudo = double.TryParse(valor, out valorDouble);
+                if (!pudo)
+                {
+                    MessageBox.Show("Ingrese un valor valido", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    Peso txt = new Peso(valorDouble);
+                    Euro txtEuro = new Euro();
+                    Dolar txtDolar = new Dolar();
+                    txtEuro = (Euro)txt;
+                    txtDolar = (Dolar)txt;
+                    txtBoxPesoPeso.Text = valor;
+                    txtBoxPesoEuro.Text = txtEuro.GetCantidad().ToString();
+                    txtBoxPesoDolar.Text = txtDolar.GetCantidad().ToString();
+
+                }
+            }
+        }
     }
 }
