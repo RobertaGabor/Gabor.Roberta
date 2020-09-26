@@ -19,7 +19,7 @@ namespace Ejercicio23
             InitializeComponent();
             candado = false;
         }
-
+        
         private void btnCotizacion_Click(object sender, EventArgs e)
         {
             if(candado==false)
