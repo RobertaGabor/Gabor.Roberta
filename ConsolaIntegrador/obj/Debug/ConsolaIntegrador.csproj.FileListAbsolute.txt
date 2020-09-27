@@ -1,0 +1,10 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\bin\Debug\ConsolaIntegrador.exe.config
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\bin\Debug\ConsolaIntegrador.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\bin\Debug\ConsolaIntegrador.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\bin\Debug\EntidadesIntegrador.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\bin\Debug\EntidadesIntegrador.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\obj\Debug\ConsolaIntegrador.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\obj\Debug\ConsolaIntegrador.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\obj\Debug\ConsolaIntegrador.csproj.CopyComplete
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\obj\Debug\ConsolaIntegrador.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\ConsolaIntegrador\obj\Debug\ConsolaIntegrador.pdb

@@ -14,14 +14,15 @@ namespace EntidadesIntegrador
         private string _aliasParaIncognito;
         private string _nombre;
         private eTipoCliente _tipoDeCliente;
-        private Random rnd;
+        private static Random random = new Random(DateTime.Now.Millisecond);
+
 
         public Cliente()
         {
             this._aliasParaIncognito = "Sin alias";
             this._nombre = "NN";
             this._tipoDeCliente = eTipoCliente.SinTipo;
-            rnd = new Random();
+
         }
 
         public Cliente(eTipoCliente tipoCliente):this()
@@ -36,9 +37,10 @@ namespace EntidadesIntegrador
 
         private void CrearAlias()
         {
+            
             StringBuilder sb = new StringBuilder();
-
-            sb.Append((this.rnd.Next(1000, 9999)).ToString());
+            
+            sb.Append(Cliente.random.Next(1000, 9999)).ToString();
             sb.Append(this._tipoDeCliente);
 
             this._aliasParaIncognito = sb.ToString();
@@ -56,11 +58,11 @@ namespace EntidadesIntegrador
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("Alias: ");
-            sb.AppendLine(this._aliasParaIncognito);
+            sb.AppendLine(this.GetAlias());
             sb.Append("Nombre: ");
             sb.AppendLine(this._nombre);
             sb.Append("Tipo de cliente: ");
-            sb.AppendLine(this._tipoDeCliente.ToString());
+            sb.Append(this._tipoDeCliente.ToString());
 
             return sb.ToString();
         }
@@ -158,7 +160,7 @@ namespace EntidadesIntegrador
             sb.AppendLine(ParaisoFiscal.cantidadCuentas.ToString());
             sb.Append("Fecha de inicio: ");
             sb.AppendLine(ParaisoFiscal.fechaInicioActividades.ToString());
-            sb.Append("Listado de cuentas: ");
+            sb.AppendLine("********************Listado de cuentas: ");
             foreach(CuentaOffShore cuenta in this._listadoCuentas)
             {
                 sb.AppendLine(Cliente.RetornarDatos((cuenta.Dueño)));
@@ -166,6 +168,7 @@ namespace EntidadesIntegrador
                 sb.AppendLine(cuenta.Saldo.ToString());
                 sb.Append("Numero de cuenta: ");
                 sb.AppendLine(((int)cuenta).ToString());
+                sb.AppendLine("- . -");
             }
 
             return sb.ToString();
@@ -205,6 +208,7 @@ namespace EntidadesIntegrador
         {
             ParaisoFiscal aux = new ParaisoFiscal();
             aux = p;
+            bool existe = false;
             for(int i=0;i<p._listadoCuentas.Count;i++)
             {
                 if(p==c)
@@ -212,9 +216,13 @@ namespace EntidadesIntegrador
                     aux._listadoCuentas.RemoveAt(i);
                     Console.WriteLine("Se quito con exito");
                     ParaisoFiscal.cantidadCuentas -= 1;
+                    existe = true;
                 }
             }
-
+            if(existe)
+            {
+                Console.WriteLine("La cuenta no existe aun");
+            }
             return aux;
         }
         public static ParaisoFiscal operator +(ParaisoFiscal p, CuentaOffShore c)
@@ -248,6 +256,7 @@ namespace EntidadesIntegrador
                     if(cuenta==c)
                     {
                         cuenta.Saldo = saldoAux;
+                        Console.WriteLine("Se actualizo con exito");
                     }
                 }
 

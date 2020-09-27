@@ -1,0 +1,6 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\EntidadesIntegrador\bin\Debug\EntidadesIntegrador.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\EntidadesIntegrador\bin\Debug\EntidadesIntegrador.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\EntidadesIntegrador\obj\Debug\EntidadesIntegrador.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\EntidadesIntegrador\obj\Debug\EntidadesIntegrador.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\EntidadesIntegrador\obj\Debug\EntidadesIntegrador.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\EntidadesIntegrador\obj\Debug\EntidadesIntegrador.pdb
