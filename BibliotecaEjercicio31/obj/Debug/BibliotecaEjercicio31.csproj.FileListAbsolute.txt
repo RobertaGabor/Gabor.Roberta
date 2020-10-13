@@ -1,0 +1,6 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\BibliotecaEjercicio31\bin\Debug\BibliotecaEjercicio31.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\BibliotecaEjercicio31\bin\Debug\BibliotecaEjercicio31.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\BibliotecaEjercicio31\obj\Debug\BibliotecaEjercicio31.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\BibliotecaEjercicio31\obj\Debug\BibliotecaEjercicio31.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\BibliotecaEjercicio31\obj\Debug\BibliotecaEjercicio31.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\BibliotecaEjercicio31\obj\Debug\BibliotecaEjercicio31.pdb
