@@ -1,0 +1,7 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\bin\Debug\Ejercicio33.exe.config
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\bin\Debug\Ejercicio33.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\bin\Debug\Ejercicio33.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\obj\Debug\Ejercicio33.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\obj\Debug\Ejercicio33.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\obj\Debug\Ejercicio33.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio33\obj\Debug\Ejercicio33.pdb
