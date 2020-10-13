@@ -20,7 +20,7 @@ namespace Ejercicio33
 
             public string this[int i]
             {
-                get {if (i < paginas.Count)
+                get {if (i < this.paginas.Count)
                     {
                         return this.paginas[i];
                     }
@@ -30,7 +30,7 @@ namespace Ejercicio33
                     }
                 }
                 set {
-                    if (i < paginas.Count)
+                    if (i < this.paginas.Count)
                     {
                         this.paginas[i] = value;
                     }
@@ -47,15 +47,13 @@ namespace Ejercicio33
         }
         static void Main(string[] args)
         {
-            List<string> libro = new List<string>();
-            libro.Add("pagina uno");
-            Console.WriteLine(libro.Count);
-            string dato = libro[0];
+            Libro book = new Libro();
+            string dato = book[0];//""
             Console.WriteLine(dato);
 
-            //libro[1] = "paginas dos";
-            //dato = libro[1];
-            //Console.WriteLine(dato);
+            book[0] = "paginas dos";
+            dato = book[0];
+            Console.WriteLine(dato);
 
             Console.ReadKey();
         }
