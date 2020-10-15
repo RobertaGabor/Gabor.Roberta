@@ -1,0 +1,10 @@
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\bin\Debug\Ejercicio37.exe.config
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\bin\Debug\Ejercicio37.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\bin\Debug\Ejercicio37.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\bin\Debug\CentralitaHerencia.dll
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\bin\Debug\CentralitaHerencia.pdb
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\obj\Debug\Ejercicio37.csprojAssemblyReference.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\obj\Debug\Ejercicio37.csproj.CoreCompileInputs.cache
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\obj\Debug\Ejercicio37.csproj.CopyComplete
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\obj\Debug\Ejercicio37.exe
+C:\Users\TCL\Desktop\UTN\PROGRAMACION\Gabor.Roberta\Ejercicio37\obj\Debug\Ejercicio37.pdb
